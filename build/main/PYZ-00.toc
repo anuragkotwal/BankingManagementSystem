@@ -55,6 +55,9 @@
   ('importlib',
    'C:\\Program Files (x86)\\Python38-32\\lib\\importlib\\__init__.py',
    'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Program Files (x86)\\Python38-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
   ('importlib._bootstrap',
    'C:\\Program Files (x86)\\Python38-32\\lib\\importlib\\_bootstrap.py',
    'PYMODULE'),
@@ -64,9 +67,6 @@
    'PYMODULE'),
   ('importlib.metadata',
    'C:\\Program Files (x86)\\Python38-32\\lib\\importlib\\metadata.py',
-   'PYMODULE'),
-  ('importlib.abc',
-   'C:\\Program Files (x86)\\Python38-32\\lib\\importlib\\abc.py',
    'PYMODULE'),
   ('configparser',
    'C:\\Program Files (x86)\\Python38-32\\lib\\configparser.py',
@@ -738,38 +738,6 @@
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\packaging\\tags.py',
    'PYMODULE'),
-  ('packaging._typing',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\packaging\\_typing.py',
-   'PYMODULE'),
-  ('packaging.markers',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\packaging\\markers.py',
-   'PYMODULE'),
-  ('pyparsing',
-   'd:\\banking management system\\venv\\lib\\site-packages\\pyparsing.py',
-   'PYMODULE'),
-  ('uuid', 'C:\\Program Files (x86)\\Python38-32\\lib\\uuid.py', 'PYMODULE'),
-  ('packaging.specifiers',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\packaging\\specifiers.py',
-   'PYMODULE'),
-  ('packaging.version',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\packaging\\version.py',
-   'PYMODULE'),
-  ('packaging._compat',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('packaging.__about__',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('packaging',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\packaging\\__init__.py',
-   'PYMODULE'),
   ('packaging.requirements',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\packaging\\requirements.py',
@@ -777,17 +745,61 @@
   ('six',
    'd:\\banking management system\\venv\\lib\\site-packages\\six.py',
    'PYMODULE'),
-  ('packaging.utils',
+  ('pyparsing',
+   'd:\\banking management system\\venv\\lib\\site-packages\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid', 'C:\\Program Files (x86)\\Python38-32\\lib\\uuid.py', 'PYMODULE'),
+  ('packaging',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\packaging\\utils.py',
+   'system\\venv\\lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging.__about__',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\packaging\\markers.py',
    'PYMODULE'),
   ('packaging._structures',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\packaging\\_structures.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.pyparsing',
+  ('packaging.utils',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'system\\venv\\lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging._typing',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging._compat',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._typing',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
    'PYMODULE'),
   ('pkg_resources._vendor.packaging.requirements',
    'd:\\banking management '
@@ -797,30 +809,6 @@
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging.__about__',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging._compat',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.markers',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
-   'PYMODULE'),
-  ('pkg_resources._vendor.packaging.utils',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
-   'PYMODULE'),
   ('pkg_resources._vendor.packaging.tags',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
@@ -829,17 +817,29 @@
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
    'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
   ('pkg_resources._vendor.packaging.specifiers',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.packaging._typing',
+  ('pkg_resources._vendor.packaging.utils',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
    'PYMODULE'),
-  ('pkg_resources._vendor.appdirs',
+  ('pkg_resources._vendor.pyparsing',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
   ('pkg_resources.extern',
    'd:\\banking management '
@@ -857,28 +857,83 @@
   ('PIL.Image',
    'd:\\banking management system\\venv\\lib\\site-packages\\PIL\\Image.py',
    'PYMODULE'),
-  ('PIL.PixarImagePlugin',
+  ('PIL.FliImagePlugin',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'system\\venv\\lib\\site-packages\\PIL\\FliImagePlugin.py',
    'PYMODULE'),
   ('PIL.ImageFile',
    'd:\\banking management system\\venv\\lib\\site-packages\\PIL\\ImageFile.py',
    'PYMODULE'),
-  ('PIL.McIdasImagePlugin',
+  ('PIL.ImtImagePlugin',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'system\\venv\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
    'PYMODULE'),
   ('PIL.BufrStubImagePlugin',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
    'PYMODULE'),
-  ('PIL.TgaImagePlugin',
+  ('PIL.MpoImagePlugin',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'system\\venv\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'd:\\banking management system\\venv\\lib\\site-packages\\PIL\\features.py',
    'PYMODULE'),
   ('PIL.XpmImagePlugin',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
    'PYMODULE'),
   ('PIL.FtexImagePlugin',
    'd:\\banking management '
@@ -888,128 +943,13 @@
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
    'PYMODULE'),
-  ('PIL.GribStubImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcoImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SpiderImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DcxImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DdsImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GbrImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SgiImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.SunImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\SunImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WebPImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FpxImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpoImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\ImImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PcxImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpegImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XbmImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MspImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\MspImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FitsStubImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImtImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MicImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\MicImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PcdImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcnsImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.features',
-   'd:\\banking management system\\venv\\lib\\site-packages\\PIL\\features.py',
-   'PYMODULE'),
-  ('PIL.PsdImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PalmImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FliImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\FliImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XVThumbImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WmfImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Jpeg2KImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IptcImagePlugin',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
-   'PYMODULE'),
   ('PIL.EpsImagePlugin',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
    'PYMODULE'),
-  ('PIL.CurImagePlugin',
+  ('PIL.SunImagePlugin',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'system\\venv\\lib\\site-packages\\PIL\\SunImagePlugin.py',
    'PYMODULE'),
   ('PIL.PdfImagePlugin',
    'd:\\banking management '
@@ -1022,9 +962,69 @@
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\PIL\\ImageSequence.py',
    'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
   ('PIL.Hdf5StubImagePlugin',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\PIL\\SpiderImagePlugin.py',
    'PYMODULE'),
   ('PIL.TiffImagePlugin',
    'd:\\banking management '
@@ -1207,49 +1207,25 @@
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\setuptools\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging.version',
+  ('setuptools._vendor.packaging._compat',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.markers',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._structures',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
-   'PYMODULE'),
-  ('setuptools._vendor.pyparsing',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
    'PYMODULE'),
   ('setuptools._vendor.ordered_set',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging.tags',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
-   'PYMODULE'),
   ('setuptools._vendor.packaging.requirements',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
-   'PYMODULE'),
-  ('setuptools._vendor.packaging._typing',
-   'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_typing.py',
    'PYMODULE'),
   ('setuptools._vendor',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
    'PYMODULE'),
-  ('setuptools._vendor.packaging._compat',
+  ('setuptools._vendor.packaging',
    'd:\\banking management '
-   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.utils',
    'd:\\banking management '
@@ -1258,6 +1234,30 @@
   ('setuptools._vendor.packaging.specifiers',
    'd:\\banking management '
    'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._typing',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'd:\\banking management '
+   'system\\venv\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
    'PYMODULE'),
   ('setuptools._vendor.packaging.__about__',
    'd:\\banking management '

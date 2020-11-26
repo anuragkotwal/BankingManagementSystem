@@ -2,6 +2,7 @@ from tkinter import *
 from home_page import *
 from resources import *
 
+# Main Function
 root = Tk()
 root.title('Banking Record management System')
 positionRight = int((root.winfo_screenwidth()-WINDOWX)/2)
