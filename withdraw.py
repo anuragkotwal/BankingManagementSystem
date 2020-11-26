@@ -19,10 +19,10 @@ def With_amount(username):
         return
     update_bal = curr_bal
     update_bal = float(update_bal) - float(amount_with.get())
-    file_data = file_data.replace(str(curr_bal), str(update_bal))
+    data[6] = str(update_bal)
     file_obj.seek(0)
-    file_obj.truncate()
-    file_obj.write(file_data)
+    file_obj.truncate(0)
+    file_obj.write("\n".join(data))
     file_obj.close()
     tkinter.messagebox.showinfo(Bankname, "Amount debit from your account & Current Balance is: " + str(update_bal))
 

@@ -17,10 +17,10 @@ def depo_amount(username):
     curr_bal = data_read[6]
     update_bal = curr_bal
     update_bal = float(update_bal) + float(amountdepo.get())
-    file_data = file_data.replace(str(curr_bal), str(update_bal))
+    data_read[6] = str(update_bal)
     file.seek(0)
     file.truncate(0)
-    file.write(file_data + '\n')
+    file.write("\n".join(data_read))
     file.close()
     tkinter.messagebox.showinfo(Bankname, "Balance Updated & Current Balance is: " + str(update_bal))
 # deposit

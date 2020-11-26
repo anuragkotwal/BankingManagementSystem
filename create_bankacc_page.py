@@ -32,6 +32,7 @@ def submit():
             encode_pass = password.encode()
             encrypt_pass = f.encrypt(encode_pass)
             new_file.write(str(encrypt_pass.decode()) + '\n')
+            # new_file.write(password + '\n')
             new_file.write(name + '\n')
             new_file.write(age + '\n')
             new_file.write(gender + '\n')
