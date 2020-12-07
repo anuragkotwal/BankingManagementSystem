@@ -52,12 +52,12 @@ def forgetpass(root):
     Inframe.place(x=25, y=25)
 
     # labels
-    Label(forget_screen, text="Enter Your Username", font=('Forte', 15), bg=innerframecolor).place(x=200, y=100)
+    Label(forget_screen, text="Enter Your Username", font=('Lucida Calligraphy', 15), bg=innerframecolor).place(x=200, y=100)
 
     # Entry
     Entry(forget_screen, textvariable=forgetuser_name).place(x=480, y=105)
 
     # Button
     Button(forget_screen, text='Next', command=verifing).place(x=500, y=140)
-    Button(forget_screen, text="Back To Login Page", command=lambda: Bank_login_page.login_acc(root), font=('Forte', 13),
+    Button(forget_screen, text="Back To Login Page", command=lambda: Bank_login_page.login_acc(root), font=('Lucida Calligraphy', 13),
            bg='#ffffff').place(x=375, y=390)

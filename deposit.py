@@ -45,16 +45,16 @@ def deposit(uname, root):
     Inframe.place(x=25, y=25)
 
     # Labels
-    Label(deposit_screen, text="Deposit Menu", font=('Forte', 13)).place(x=385, y=0)
-    curr_bal_label = Label(deposit_screen, text="Current Balance: " + bal, font=('Forte', 13))
+    Label(deposit_screen, text="Deposit Menu", font=('Lucida Calligraphy', 13)).place(x=385, y=0)
+    curr_bal_label = Label(deposit_screen, text="Current Balance: " + bal, font=('Lucida Calligraphy', 13))
     curr_bal_label.place(x=80, y=100)
-    Label(deposit_screen, text="Enter Amount to Deposit = ", font=('Forte', 13), bg=innerframecolor).place(x=80,
+    Label(deposit_screen, text="Enter Amount to Deposit = ", font=('Lucida Calligraphy', 13), bg=innerframecolor).place(x=80,
                                                                                                                  y=140)
     # Entries
     Entry(deposit_screen, textvariable=amountdepo).place(x=350, y=143)
 
     # Buttons
-    Button(deposit_screen, text="Deposit to Account", font=('Forte', 13),
+    Button(deposit_screen, text="Deposit to Account", font=('Lucida Calligraphy', 13),
            command=lambda: depo_amount(uname)).place(x=300, y=180)
     Button(deposit_screen, command=lambda: Bank_login_page.login_confidential(root), image=backicon,
            bg='#000000').place(

@@ -67,13 +67,13 @@ def create_acc(root):
     Inframe.place(x=25, y=25)
 
     #labels
-    Label(create_screen, text="Account Opening", font=('Forte', 20), bg='#00b7fa', fg='#ffffff',).place(x=360,y=30)
-    Label(create_screen, text="*Name: ", font=('Forte', 13), bg=innerframecolor).place(x=80,y=100)
-    Label(create_screen, text="*Age: ", font=('Forte', 13), bg=innerframecolor).place(x=80,y=140)
-    Label(create_screen, text="*Gender: ", font=('Forte', 13), bg=innerframecolor).place(x=80,y=180)
-    Label(create_screen, text="*Email: ", font=('Forte', 13), bg=innerframecolor).place(x=80, y=220)
-    Label(create_screen, text="*Username: ", font=('Forte', 13), bg=innerframecolor).place(x=80,y=260)
-    Label(create_screen, text="*Password: ", font=('Forte', 13), bg=innerframecolor).place(x=80,y=300)
+    Label(create_screen, text="Account Opening", font=('Lucida Calligraphy', 20), bg='#00b7fa', fg='#ffffff',).place(x=360,y=30)
+    Label(create_screen, text="*Name: ", font=('Lucida Calligraphy', 13), bg=innerframecolor).place(x=80,y=100)
+    Label(create_screen, text="*Age: ", font=('Lucida Calligraphy', 13), bg=innerframecolor).place(x=80,y=140)
+    Label(create_screen, text="*Gender: ", font=('Lucida Calligraphy', 13), bg=innerframecolor).place(x=80,y=180)
+    Label(create_screen, text="*Email: ", font=('Lucida Calligraphy', 13), bg=innerframecolor).place(x=80, y=220)
+    Label(create_screen, text="*Username: ", font=('Lucida Calligraphy', 13), bg=innerframecolor).place(x=80,y=260)
+    Label(create_screen, text="*Password: ", font=('Lucida Calligraphy', 13), bg=innerframecolor).place(x=80,y=300)
 
     #Entries
     Entry(create_screen, textvariable=temp_name).place(x=210,y=103)
@@ -84,6 +84,6 @@ def create_acc(root):
     Entry(create_screen, textvariable=temp_paswrd, show="*").place(x=210,y=303)
 
     #buttons
-    Button(create_screen, text="Submit", command=submit, font=('Forte', 13), fg='#7d00b3', bg='#ffffff').place(x=420,y=350)
-    Button(create_screen, text="Back To Home", command=lambda: home_page.homepage(root), font=('Forte', 13), bg='#ffffff').place(x=390, y=390)
+    Button(create_screen, text="Submit", command=submit, font=('Lucida Calligraphy', 13), fg='#7d00b3', bg='#ffffff').place(x=420,y=350)
+    Button(create_screen, text="Back To Home", command=lambda: home_page.homepage(root), font=('Lucida Calligraphy', 13), bg='#ffffff').place(x=390, y=400)
 

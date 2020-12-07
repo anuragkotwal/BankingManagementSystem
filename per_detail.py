@@ -23,12 +23,12 @@ def personal_deatil(uname,root):
     Inframe.place(x=25, y=25)
 
     #Label
-    Label(detail_screen, text="Personal Details" , font=('Forte', 13), bg='#FFFFFF').place(x=370, y=0)
-    Label(detail_screen, text="Name: "+name, font=('Forte', 13)).place(x=80,y=100)
-    Label(detail_screen, text="Age: "+age, font=('Forte', 13)).place(x=80,y=140)
-    Label(detail_screen, text="Gender: "+gen, font=('Forte', 13)).place(x=80,y=180)
-    Label(detail_screen, text="Email: " + email, font=('Forte', 13)).place(x=80, y=220)
-    Label(detail_screen, text="Current Balance: "+bal, font=('Forte', 13)).place(x=80,y=260)
+    Label(detail_screen, text="Personal Details" , font=('Lucida Calligraphy', 13), bg='#FFFFFF').place(x=370, y=0)
+    Label(detail_screen, text="Name: "+name, font=('Lucida Calligraphy', 13)).place(x=80,y=100)
+    Label(detail_screen, text="Age: "+age, font=('Lucida Calligraphy', 13)).place(x=80,y=140)
+    Label(detail_screen, text="Gender: "+gen, font=('Lucida Calligraphy', 13)).place(x=80,y=180)
+    Label(detail_screen, text="Email: " + email, font=('Lucida Calligraphy', 13)).place(x=80, y=220)
+    Label(detail_screen, text="Current Balance: "+bal, font=('Lucida Calligraphy', 13)).place(x=80,y=260)
 
     # Buutons
     Button(detail_screen, command=lambda: Bank_login_page.login_confidential(root), image=backicon, bg='#000000').place(x=830, y=30)

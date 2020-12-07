@@ -48,17 +48,17 @@ def withdraw(uname, root):
     Inframe.place(x=25, y=25)
 
     # Labels
-    Label(Withdraw_screen, text="Withdraw Menu", font=('Forte', 13)).place(x=385, y=0)
-    curr_bal_label = Label(Withdraw_screen, text="Current Balance: " + bal, font=('Forte', 13))
+    Label(Withdraw_screen, text="Withdraw Menu", font=('Lucida Calligraphy', 13)).place(x=385, y=0)
+    curr_bal_label = Label(Withdraw_screen, text="Current Balance: " + bal, font=('Lucida Calligraphy', 13))
     curr_bal_label.place(x=80, y=100)
-    Label(Withdraw_screen, text="Enter Amount to Withdraw = ", font=('Forte', 13), bg=innerframecolor).place(x=80,
+    Label(Withdraw_screen, text="Enter Amount to Withdraw = ", font=('Lucida Calligraphy', 13), bg=innerframecolor).place(x=80,
                                                                                                                    y=140)
 
     # Entries
-    Entry(Withdraw_screen, textvariable=amount_with).place(x=350, y=143)
+    Entry(Withdraw_screen, textvariable=amount_with).place(x=370, y=143)
 
     # Buttons
-    Button(Withdraw_screen, text="Withdraw", font=('Forte', 13), command=lambda: With_amount(uname)).place(x=300,
+    Button(Withdraw_screen, text="Withdraw", font=('Lucida Calligraphy', 13), command=lambda: With_amount(uname)).place(x=300,
                                                                                                                  y=180)
     Button(Withdraw_screen, command=lambda: Bank_login_page.login_confidential(root), image=backicon,
            bg='#000000').place(
