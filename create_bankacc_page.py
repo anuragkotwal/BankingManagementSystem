@@ -8,8 +8,8 @@ import tkinter.messagebox
 
 
 def submit():
-
     # Vars
+
     name = temp_name.get()
     age = temp_age.get()
     gender = temp_gender.get()
